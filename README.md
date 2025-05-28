@@ -52,4 +52,4 @@ The secret is not hardcoded in the codebase for security purposes.
 * Run the app with Run or Debug option
 
 # Troubleshooting
-* Contact Max Edmiston <max@edmiston.org>
+* Contact Max Edmiston (<mailto:max@edmiston.org>)
