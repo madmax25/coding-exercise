@@ -37,7 +37,7 @@ The secret is not hardcoded in the codebase for security purposes.
 
 ## Base64 Encode on Mac Terminal
 
-> echo -n 'example-api-user:example api-password' | openssl base64
+> echo -n 'example-api-user:example-api-password' | openssl base64
 
 ## Example API curl
 
