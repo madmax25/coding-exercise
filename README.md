@@ -3,7 +3,7 @@
 ## Decisions / Architecture
 
 * Caching is implemented using Caffeine Cache
-* Spring security is implemented using Basic Security
+* Spring security is implemented using Basic Authentication
 * Validation ensures only alpha-numeric values (and/or dashes) are provided as part of the username input
   * Validation using Spring Validation / @Pattern annotation
 * ControllerAdvice in ControllerConfig to provide a consistent output using error message and error code
