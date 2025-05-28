@@ -39,6 +39,10 @@ The secret is not hardcoded in the codebase for security purposes.
 
 > echo -n 'example-api-user:example-api-password' | openssl base64
 
+As an example, for the username and secret RECOMMENDED_TO_UPDATE_THIS, the value that needs to be base64 encoded is RECOMMENDED_TO_UPDATE_THIS:RECOMMENDED_TO_UPDATE_THIS which is:
+> UkVDT01NRU5ERURfVE9fVVBEQVRFX1RISVM6UkVDT01NRU5ERURfVE9fVVBEQVRF
+X1RISVM=
+
 ## Example API curl
 
 > curl --location 'http://localhost:8080/api/v1/users/octocat' \
